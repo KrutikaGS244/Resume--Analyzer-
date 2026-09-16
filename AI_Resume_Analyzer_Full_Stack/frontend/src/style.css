@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f5f7fb; color: #172033; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 7%; background: white; box-shadow: 0 2px 10px #ddd; }
+nav button { margin-left: 8px; }
+button { border: 0; padding: 10px 15px; border-radius: 8px; cursor: pointer; background: #e9edf5; }
+.primary { background: #2563eb; color: white; }
+.hero, .container { max-width: 1000px; margin: 50px auto; padding: 20px; }
+.hero { text-align: center; }
+.hero h1 { font-size: 44px; }
+.card { background: white; padding: 25px; border-radius: 14px; box-shadow: 0 5px 20px #dfe3eb; }
+.upload { max-width: 600px; margin: 30px auto; }
+input { width: 100%; padding: 12px; margin: 8px 0 15px; border: 1px solid #ccd2dd; border-radius: 8px; }
+.auth { max-width: 450px; margin: 70px auto; }
+.message { margin: 15px auto; max-width: 900px; padding: 12px; background: #fff3cd; border-radius: 8px; }
+.score { width: 150px; height: 150px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 35px; font-weight: bold; background: #e0ecff; margin: 25px 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips span { background: #e8f0ff; padding: 7px 11px; border-radius: 20px; }
+.job-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+@media(max-width:700px) { nav { flex-direction: column; gap: 10px; } .hero h1 { font-size: 32px; } }
